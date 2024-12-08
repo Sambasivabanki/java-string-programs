@@ -1,0 +1,11 @@
+class Main
+{
+    public static void main(String[] args)
+    {
+        String s="I am a student";
+        char oldchar='a';
+        char newchar='x';
+        String str=s.replace(oldchar,newchar);
+        System.out.println(str);
+    }
+}
